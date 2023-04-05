@@ -212,7 +212,6 @@ import {
       ],
       image: crowdfunding_5,
       source_code_link: "https://github.com/bubu59/Kickstarter_3.0.git",
-      project_link: "https://kickstarterrz.netlify.app/",
     },
     {
       name: "AVAXGODS",
@@ -242,7 +241,6 @@ import {
       ],
       image: avaxgods,
       source_code_link: "https://github.com/bubu59/AvaxGods.git",
-      project_link: "https://avaxgoddzz.netlify.app/",
     },
   ];
   

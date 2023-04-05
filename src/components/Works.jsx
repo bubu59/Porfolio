@@ -6,7 +6,7 @@ import { github } from '../assets'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
-
+import { Anchorme } from 'react-anchorme'
 
 const ProjectCard = ({index, name, description, tags, image, source_code_link, project_link}) => {
   return (
@@ -55,15 +55,6 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, p
                #{tag.name}
             </p>
           ))}
-        </div>
-        <div className='mt-4 flex flex-row gap-3 items-center'>
-            <p>Link: </p> 
-            <div 
-              className='cursor-pointer text-secondary text-[16px]'
-              onClick={() => window.open(project_link, "_blank")}
-            >
-             {project_link}
-            </div>
         </div>
       </Tilt>
     </motion.div>
