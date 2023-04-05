@@ -62,7 +62,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, p
               className='cursor-pointer'
               onClick={() => window.open(project_link, "_blank")}
             >
-              <span className='text-secondary text-[16px]'>Click here to see live demo!</span>
+              <div className='text-secondary text-[16px]'>{project_link}</div>
             </div>
         </div>
       </Tilt>
