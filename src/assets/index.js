@@ -30,6 +30,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import crowdfunding_5 from "./cf5.png"
+import avaxgods from "./avaxgods.png"
+
 export {
   logo,
   backend,
@@ -59,4 +62,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  crowdfunding_5,
+  avaxgods
 };

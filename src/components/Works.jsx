@@ -8,7 +8,7 @@ import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
 
-const ProjectCard = ({index, name, description, tags, image, source_code_link}) => {
+const ProjectCard = ({index, name, description, tags, image, source_code_link, project_link}) => {
   return (
     <motion.div
       variants={fadeIn("up", "spring", index*0.5, 0.75)}
@@ -25,7 +25,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
           <img 
             src={image}
             alt={name}
-            className='w-full h-full object-cover rounded-2xl'
+            className='w-full h-full object-contain rounded-2xl'
           />
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
@@ -55,6 +55,15 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
                #{tag.name}
             </p>
           ))}
+        </div>
+        <div className='mt-4 flex flex-row gap-3 items-center'>
+            <p>Link: </p> 
+            <div 
+              className='cursor-pointer'
+              onClick={() => window.open(project_link, "_blank")}
+            >
+              <span className='text-secondary text-[16px]'>Click here to see live demo!</span>
+            </div>
         </div>
       </Tilt>
     </motion.div>

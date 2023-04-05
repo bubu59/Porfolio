@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    crowdfunding_5,
+    avaxgods
   } from "../assets";
   
   export const navLinks = [
@@ -185,68 +187,85 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Kickstarter_3.0",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to create, view, and donate to crowdfunding campaigns directly through the Ethereum testnet.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "solidity",
           color: "green-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "hardhat",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "thirdweb",
+          color: "violet-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: crowdfunding_5,
+      source_code_link: "https://github.com/bubu59/Kickstarter_3.0.git",
+      project_link: "https://enchanting-pudding-c71a01.netlify.app",
     },
     {
-      name: "Job IT",
+      name: "AVAXGODS",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to create and join live battles, choose your battleground, and battle other players in real-time on the Avalanche testnet.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "solidity",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name:  "tailwind",
           color: "pink-text-gradient",
         },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "hardhat",
+          color: "orange-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "openzeppelin",
+          color: "violet-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: avaxgods,
+      source_code_link: "https://github.com/bubu59/AvaxGods.git",
     },
+    // {
+    //   name: "Trip Guide",
+    //   description:
+    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
