@@ -214,7 +214,7 @@ import {
       ],
       image: crowdfunding_5,
       source_code_link: "https://github.com/bubu59/Kickstarter_3.0.git",
-      project_link: "https://enchanting-pudding-c71a01.netlify.app",
+      project_link: "https://kickstarterrz.netlify.app/",
     },
     {
       name: "AVAXGODS",
@@ -244,28 +244,8 @@ import {
       ],
       image: avaxgods,
       source_code_link: "https://github.com/bubu59/AvaxGods.git",
+      project_link: "https://avaxgoddzz.netlify.app/",
     },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
