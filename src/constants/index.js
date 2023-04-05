@@ -137,10 +137,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2022 - Nov 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed, designed and implemented 1 of 4 Forecasting logics to capture seasonal return trends of shipping containers.",
+        "Improved forecast accuracy by 5 percent through actively analyzing and tuning forecast parameters.",
+        "Carried out weekly forecast analysis to identify critical areas of disruption and provide recommendations for forecast adjustments.",
       ],
     },
     {
@@ -150,9 +149,8 @@ import {
       iconBg: "#383E56",
       date: "Jan 2021 - Dec 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Build classification models using various Machine Learning models to identify key metrics in achieving high impact Marketing Campaigns.",
+        "Develop algorithms using Natural Language Processing and Deep Learning models to provide clients with real-time feedback on user's sentiment.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },

@@ -59,10 +59,10 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, p
         <div className='mt-4 flex flex-row gap-3 items-center'>
             <p>Link: </p> 
             <div 
-              className='cursor-pointer'
+              className='cursor-pointer text-secondary text-[16px]'
               onClick={() => window.open(project_link, "_blank")}
             >
-              <div className='text-secondary text-[16px]'>{project_link}</div>
+             {project_link}
             </div>
         </div>
       </Tilt>
