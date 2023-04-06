@@ -24,7 +24,10 @@ import {
     tripguide,
     threejs,
     crowdfunding_5,
-    avaxgods
+    avaxgods,
+    me3,
+    one,
+    affable2
   } from "../assets";
   
   export const navLinks = [
@@ -120,7 +123,7 @@ import {
     {
       title: "Frontend Engineer",
       company_name: "Me3",
-      icon: starbucks,
+      icon: me3,
       iconBg: "#383E56",
       date: "Dec 2022 - Mar 2023",
       points: [
@@ -133,7 +136,7 @@ import {
     {
       title: "Data-Analyst/Python Developer",
       company_name: "Ocean Network Express",
-      icon: tesla,
+      icon: one,
       iconBg: "#E6DEDD",
       date: "Jan 2022 - Nov 2022",
       points: [
@@ -145,7 +148,7 @@ import {
     {
       title: "Data Scientist Trainee",
       company_name: "Affable.io",
-      icon: shopify,
+      icon: affable2,
       iconBg: "#383E56",
       date: "Jan 2021 - Dec 2021",
       points: [

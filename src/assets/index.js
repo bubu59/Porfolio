@@ -33,6 +33,10 @@ import tripguide from "./tripguide.png";
 import crowdfunding_5 from "./cf5.png"
 import avaxgods from "./avaxgods.png"
 
+import me3 from "./me3.png"
+import one from "./one.png"
+import affable2 from "./affable2.png"
+
 export {
   logo,
   backend,
@@ -63,5 +67,8 @@ export {
   jobit,
   tripguide,
   crowdfunding_5,
-  avaxgods
+  avaxgods,
+  me3,
+  one,
+  affable2
 };
