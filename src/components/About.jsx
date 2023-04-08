@@ -43,7 +43,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'  
       >
-        I'm an aspiring Web3 Frontend Engineer on the constant lookout on how to develop more secure smart contracts as well as building UI/UXs that are scalable and user-friendly.
+        I'm an aspiring Web3 Frontend Engineer on the constant lookout on how to develop better smart contracts as well as building UI/UXs that are scalable and user-friendly.
       </motion.p>
 
       {/* <div className='mt-20 flex flex-wrap gap-10'>
