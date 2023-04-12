@@ -74,7 +74,6 @@ const Works = () => {
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify'
         >
           Here are some projects that I have worked on. Each project is build with the goal of becoming a full-stack web3 engineer which involves writing, testing and deploying smart contracts as well as integrating it with the frontend for users to interact with.
-          Currently learning how to integrate CI/CD pipelines using netlify and circleCI for deployment purposes. 
         </motion.p>
       </div>
 
