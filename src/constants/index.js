@@ -27,7 +27,8 @@ import {
     avaxgods,
     me3,
     one,
-    affable2
+    affable2,
+    stockpile
   } from "../assets";
   
   export const navLinks = [
@@ -244,6 +245,31 @@ import {
       ],
       image: avaxgods,
       source_code_link: "https://github.com/bubu59/AvaxGods.git",
+    },
+    {
+      name: "Stockpile",
+      description:
+        "Web application that enables users to create and contribute to fundraisers in real-time on the Solana mainnet.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "anchor-rust",
+          color: "green-text-gradient",
+        },
+        {
+          name:  "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "@solana/web3js",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: stockpile,
+      source_code_link: "https://github.com/StockpileProtocol/stockpile",
     },
   ];
   
